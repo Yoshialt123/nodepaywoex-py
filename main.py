@@ -9,7 +9,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 print("\n" + " " * 32 + f"{Fore.CYAN}Base Code Credit @rambeboy{Style.RESET_ALL}")
-
+print(Fore.MAGENTA + "Running Nodepay Directly From Your IP..." + Style.RESET_ALL)
 
 def truncate_token(token):
     return f"{token[:5]}--{token[-5:]}"
